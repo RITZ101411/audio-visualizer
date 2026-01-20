@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+    * {
+        box-sizing: border-box;
+    }
+    html {
+        color-scheme: dark;
+    }
+    body {
+        margin: 0;
+        font-family: system-ui, -apple-system, sans-serif;
+    }
+}
+
+@theme {
+    --color-default: rgb(60, 60, 60);
+    --color-default-strong: rgb(50, 50, 50);
+
+    --color-green: rgb(59, 181, 130);
+    --color-green-strong: rgb(47, 149, 106);
+
+    --color-red: rgb(181, 59, 59);
+    --color-red-strong: rgb(149, 47, 47);
+}
